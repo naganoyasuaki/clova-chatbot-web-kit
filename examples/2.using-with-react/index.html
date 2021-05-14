@@ -84,7 +84,7 @@
       crossorigin="anonymous"
       src="https://unpkg.com/react-dom@16.13.1/umd/react-dom.development.js"
     ></script>
-    <script src="http://localhost:8080/webchat.js"></script>
+    <script src="https://clovachatbot-webkit.line-scdn.net/webchat/webchat-1.0.0.js"></script>
   </head>
 
   <body>
@@ -140,7 +140,7 @@
         const root = document.querySelector("#chat");
         const props = {
           root,
-          apiPath: "http://localhost:8080/",
+          apiPath: "https://chatbot-proxy-server.herokuapp.com/",
           width: "360px",
           height: "600px",
           title: "Using with React",

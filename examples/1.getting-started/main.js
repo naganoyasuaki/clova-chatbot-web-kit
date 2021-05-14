@@ -146,7 +146,7 @@ $(function () {
 
   WebChat.renderWebChat(
     {
-      apiPath: 'http://localhost:8080/',
+      apiPath: 'https://chatbot-proxy-server.herokuapp.com/',
       width: '360px',
       height: '550px',
       title: 'CLOVA Chatbot!',

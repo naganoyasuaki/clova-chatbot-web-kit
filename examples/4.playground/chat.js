@@ -2,7 +2,7 @@ $(function () {
   var chatContainer = "#chat";
   var chatStyles = function () {
     return {
-      apiPath: "http://localhost:8080/",
+      apiPath: "https://chatbot-proxy-server.herokuapp.com/",
       width: $("#chat-width").val() + "px",
       height: $("#chat-height").val() + "px",
       title: $("#chat-title").val(),
