@@ -169,4 +169,6 @@ $(function () {
     },
     document.querySelector(chatContainer)
   );
+
+  $(chatButton).click()
 });
