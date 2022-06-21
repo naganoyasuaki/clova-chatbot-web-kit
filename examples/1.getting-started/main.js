@@ -146,7 +146,7 @@ $(function () {
 
   WebChat.renderWebChat(
     {
-      apiPath: 'https://jowolc8gre.execute-api.us-east-1.amazonaws.com/',
+      apiPath: 'https://jowolc8gre.execute-api.us-east-1.amazonaws.com/dev/',
       width: '360px',
       height: '550px',
       title: 'CLOVA Chatbot!',
